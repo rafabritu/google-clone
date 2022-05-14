@@ -1,0 +1,173 @@
+/* GERAL */
+
+body{
+    font-family: arial,sans-serif;
+    font-size:14px;
+    color: rgba(0,0,0,0.8);
+    margin: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+    font-size: 13px;
+    font-weight: 400;
+}
+a:hover{
+    text-decoration: underline;
+}
+p{
+    margin:0;
+}
+article{
+    margin:0;
+}
+/* MENU PRINCIPAL */
+
+.menu-principal{
+    height: 48px;
+    text-align: right;
+    margin:10px 10px 0 0;
+}
+.menu-bt-texto,.menu-bt-icon{
+    display: inline-block;
+}
+.menu-bt-texto a{
+    margin-left: 10px;
+}
+
+.menu-bt-texto{
+    position: relative;
+    bottom: 7px;
+}
+.menu-bt-icon{
+    position: relative;
+    top: 3px;
+}
+.gapps{
+    display: inline-block;
+    position: relative;
+    bottom: 2px;
+    padding: 5px;
+    margin-left: 17px;
+}
+.gapps svg{
+    height: 24px;
+    fill: rgb(95,99,104);
+}
+.perfil{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.perfil img{
+    position: relative;
+    top:4px;
+    border-radius: 50%;
+    height: 32px;
+}
+
+/* ÁREA DE PESQUISA */
+
+
+
+main header{
+    margin-top: 201px;
+}
+main header img{
+    display: block;
+    margin: auto;
+}
+.area-pesquisa{
+    text-align: center;
+    margin-top:25px;
+}
+.barra-pesquisa{
+    width: 447px;
+    height: 34px;
+    padding: 5px 100px 5px 35px;
+    border-radius: 25px;
+    border:1px solid #dfe1e5;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.barra-pesquisa:hover{
+    box-shadow: 0 2px #0000001a,0 -1px 1px rgba(0,0,0,0.08) ;
+}
+.barra-pesquisa:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.botoes-barra-pesquisa{
+    position: relative;
+    right: 80px;
+    display: inline-block;
+}
+.pesquisa{
+    position: relative;
+    left: 40px;
+    vertical-align: middle;
+    fill:#9aa0a6;
+    height: 20px;
+    width: 20px;
+}
+.teclado{
+    vertical-align: middle;
+}
+.microfone{
+    margin-left: 12px;
+    vertical-align: middle;
+    height: 25px;
+}
+.botoes-pesquisa{
+    margin-top: 30px;
+}
+.botoes-pesquisa a{
+    font-size: 14px;
+    padding: 0 16px;
+    line-height: 36px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+.botoes-pesquisa a:hover{
+    border:1px solid rgba(0,0,0,0.1);
+    text-decoration: none;
+}
+.idioma{
+    margin-top: 30px;
+    font-size: 13px;
+    height: 305px;
+}
+.idioma a{
+    color:#1a0dab;
+}
+footer{
+    background-color: #f2f2f2;
+}
+
+.pais{
+    padding:15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.pais p{
+    margin:0;
+    color:#70757a;
+    font-size: 14px;
+}
+.links div{
+    display: inline-block;
+}
+.links div a{
+    margin-left:30px;
+    color:#70757a;
+    font-size: 14px;
+    line-height: 46px;
+}
+.links div a:hover{
+    text-decoration: underline;
+}
+.links-2{
+    float:right;
+    margin-right: 30px;
+}
